@@ -1,1 +1,1 @@
-web gunicorn bank.wsgi:application --log-file -
+web: gunicorn GRIP_TASK1.wsgi --log-file -
